@@ -1,0 +1,13 @@
+{% extends 'api/base.html' %}
+
+{% block content %}
+<h2 class="center-text">Your link is:</h2>
+<h2 class="center-text"><a href="{{ short_link }}">{{ short_link }}</a></h2>
+<button id="homeButton" class="center-div">Home</button>
+
+<script type="text/javascript">
+    document.getElementById("homeButton").onclick = function () {
+        location.href = "/";
+    };
+</script>
+{% endblock %}
