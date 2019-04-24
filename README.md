@@ -35,9 +35,9 @@ Modify the following either in `run\_dev.fish` or `run\_prod.fish`.
 
 * `DEBUG` - whether the application runs in debug mode
 
-* `SECRET\_KEY` - Django secret key
+* `SECRET_KEY` - Django secret key
 
-* `LINK\_LENGTH` - generated link lenth
+* `LINK_LENGTH` - generated link lenth
 
 # Checking code style
 
