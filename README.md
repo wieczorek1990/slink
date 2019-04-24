@@ -31,7 +31,7 @@ Django port is 8000, Docker exposes it to port 80.
 
 # Environment variables
 
-Modify the following either in `run\_dev.fish` or `run\_prod.fish`.
+Modify the following either in `run_dev.fish` or `run_prod.fish`.
 
 * `DEBUG` - whether the application runs in debug mode
 
