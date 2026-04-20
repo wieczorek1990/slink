@@ -26,6 +26,7 @@ class Link(models.Model):
     @classmethod
     def generate_short_link(cls, host):
         done = False
+        short_link = None
         while not done:
             link_id = ''.join(random.choice(string.ascii_lowercase +
                                             string.digits)
